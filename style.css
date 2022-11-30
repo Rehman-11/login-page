@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main-container {
+    height: 47rem;
+    background-image: url("Images/wave-01.png");
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main-container .slid-image img {
+    height: 500px;
+}
+
+.main-container .input {
+    width: 400px;
+    height: 500px;
+}
+
+.main-container .input img {
+    height: 120px;
+    margin-left: 137px;
+}
+
+.main-container .input h1 {
+    margin-left: 90px;
+    font-family: sans-serif;
+    color: #333;
+    font-size: 2.9rem;
+    font-weight: bold;
+}
+
+.main-container .input .display {
+    width: 290px;
+    height: 50px;
+    margin-left: 72px;
+    font-size: 20px;
+    color: #555;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    border-bottom: 2px solid #d9d9d9;
+
+}
+
+.main-container .input .login {
+    margin-left: 48px;
+    display: block;
+    width: 80%;
+    height: 50px;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    background-image: linear-gradient(to right, #6b5cff, #5d51c7, #6b5cff);
+    background-size: 200%;
+    font-size: 1.2rem;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 1s;
+
+}
+
+.main-container .input .login:hover {
+    border-radius: 25px;
+    color: black;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(2, 43, 6, 0));
+
+
+}
+
+.main-container .input a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #999;
+    font-size: 1rem;
+    font-family: sans-serif;
+}
